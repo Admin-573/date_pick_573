@@ -33,14 +33,16 @@ public class progressbar_573 extends AppCompatActivity {
                             textView.setText(progressStatus+"/"+progressBar.getMax());
                         }
                     });
-                    try {
-                        Thread.sleep(25);
-                    } catch (InterruptedException e) {
+                    try
+                    {
+                        Thread.sleep(5000);
+                    }
+                    catch (InterruptedException e)
+                    {
                         e.printStackTrace();
                     }
                 }
             }
         }).start();
-
     }
 }
